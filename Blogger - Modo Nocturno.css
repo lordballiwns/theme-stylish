@@ -126,7 +126,7 @@ body#layout .draggable-widget .widget-wrap3 {background: #333;}
 .FuZZcf {stroke: #fff;}
 .ndJi5d {color: #888;}
 .ve-Zd-Sg {background-color: #888;}
-.ve-dk-db-Bi {background: no-repeat url(//ssl.gstatic.com/docs/picker/images/onepick_sprite16.svg) 0 -512px white;height: 15px;width: 15px;}
+.ve-dk-db-Bi {background: no-repeat url(ssl.gstatic.com/docs/picker/images/onepick_sprite16.svg) 0 -512px white;height: 15px;width: 15px;}
 .ve-zi-wf .ve-Ai-Zb-ie {border-bottom: 1px solid #555; box-shadow: 0 1px 5px 1px #555;}
 .ve-Ai-Zb-Bi-Yb-dh .a-Bi-w {color: #ddd;}
 .ve-Ai-Zb-Bi-Yb-dh .a-Bi, .ve-Ai-Zb-Bi-Yb-dh .a-kb-u {color: #ddd;}
@@ -141,20 +141,4 @@ body#layout .draggable-widget .widget-wrap3 {background: #333;}
 .wf-Vf-qb .Xb-Yb-Zb {background-color: #111;border: 1px solid #555;}
 .wf-Vf-qb .Xb-Yb-O {background-color: #333;}
 .TRHLAc {background: #555;}
-}
-.ndJi5d {color: #888888;}
-.g0RVJ {color: #dddddd;}
-header.gb_sa.gb_0a.gb_4e.gb_Wd.gb_Lc {border-bottom: 1px solid #888888!important;}
-.editable a {color: #00f0a2}
-/*form.gb_4e.gb_Bf.gb_wf {background: #111111!important;}
-.gb_qa {color: white;}*/
-header.gb_qa.gb_Wa.gb_2e.gb_Ud.gb_Jc {background: #222222!important; border-bottom: 1px solid #888888!important;}
-.gb_4e {background: #555555;}
-form.gb_4e.gb_Bf {background: #151515!important;}
-form.gb_4e.gb_Bf.gb_wf.gb_5e {background: #000000!important;}
-.gb_qa {color: white;}
-.gb_4e:not(.gb_5e) input::placeholder {color: #aaaaaa;}
-.gb_4e.gb_5e input::placeholder {color: #aaaaaa;}
-.gb_qa svg, .gb_Cc svg, .gb_Zc .gb_fe, .gb_Oc .gb_fe {color: #cccccc;}
-.gb_4e.gb_5e button svg {color: #dddddd;}
 }
