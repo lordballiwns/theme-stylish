@@ -82,7 +82,7 @@ body#layout div.section {background-color: #222; border: 1px solid #555;}
 body#layout .locked-widget .widget-content {background-color: #333;}
 body#layout .widget-content {box-shadow: rgba(150,150,150,0.12) 0 0 2px 0, rgba(150,150,150,0.24) 0 2px 2px 0; color: #eee;}
 body#layout div.layout-widget-description {color: #ddd;}
-body#layout .draggable-widget .widget-wrap2 {background: #000 url(/img/widgets/draggable.png) no-repeat 4px 50%; cursor: move;}
+body#layout .draggable-widget .widget-wrap2 {background-color: #000}
 body#layout .draggable-widget .widget-wrap3 {background: #333;}
 .fkIfyc, .L3ijne {background: #222;}
 .L3ijne {border-top: 1px solid #555;}
@@ -126,7 +126,7 @@ body#layout .draggable-widget .widget-wrap3 {background: #333;}
 .FuZZcf {stroke: #fff;}
 .ndJi5d {color: #888;}
 .ve-Zd-Sg {background-color: #888;}
-.ve-dk-db-Bi {background: no-repeat url(ssl.gstatic.com/docs/picker/images/onepick_sprite16.svg) 0 -512px white;height: 15px;width: 15px;}
+.ve-dk-db-Bi {background-color: white;height: 15px;width: 15px;}
 .ve-zi-wf .ve-Ai-Zb-ie {border-bottom: 1px solid #555; box-shadow: 0 1px 5px 1px #555;}
 .ve-Ai-Zb-Bi-Yb-dh .a-Bi-w {color: #ddd;}
 .ve-Ai-Zb-Bi-Yb-dh .a-Bi, .ve-Ai-Zb-Bi-Yb-dh .a-kb-u {color: #ddd;}
