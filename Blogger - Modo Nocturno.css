@@ -141,4 +141,9 @@ body#layout .draggable-widget .widget-wrap3 {background: #333;}
 .wf-Vf-qb .Xb-Yb-Zb {background-color: #111;border: 1px solid #555;}
 .wf-Vf-qb .Xb-Yb-O {background-color: #333;}
 .TRHLAc {background: #555;}
+.SddhE .oqVKcb {background: #111;}
+.CodeMirror {background: #222; color: #fff;}
+.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection {background: #333;}
+.cm-s-default .cm-tag {color: #00ff00;}
+.CodeMirror-gutters {border-right: 1px solid #555;background-color: #222;white-space: nowrap;}
 }
