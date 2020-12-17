@@ -1,0 +1,107 @@
+@-moz-document url-prefix("https://translate.google.com.mx/") {
+body { color: #eee;}
+/*----*/
+/*--Header--*/
+header {background: #000!important;}
+.gb_qa {color: #eee;}
+.pGxpHc header {border-bottom: 1px solid #444;}
+/*--Panel-Lateral--*/
+.gb_Cc.gb_ma {box-shadow: 0 0 16px #444;}
+.gb_Cc {background: #111; color: #ccc;}
+.gb_qa svg, .gb_Cc svg, .gb_Zc .gb_fe, .gb_Oc .gb_fe {color: #fff;}
+.GR2kEe:not(:last-child) {border-bottom: 1px #444 solid;}
+.yJWPX:hover {background-color: #222;}
+/*--Menu-Derecha-Izrquierda--*/
+.gb_wc .gb_4e.gb_5e button:hover svg, .gb_4e button:hover svg, .gb_D:hover {background-color: #222;}
+#gb#gb a.gb_D {color: #ccc;}
+.gb_wc .gb_4e.gb_5e button:active svg, .gb_4e button:active svg, .gb_D:active {background-color: #666;}
+.gb_wc .gb_4e.gb_5e button:focus svg, .gb_wc .gb_4e.gb_5e button:focus:hover svg, .gb_4e button:focus svg, .gb_4e button:focus:hover svg, .gb_D:focus, .gb_D:focus:hover {background-color: #555;}
+.gb_D[aria-expanded="true"], .gb_D:hover[aria-expanded="true"] {background-color: #252525;}
+.gb_D[aria-expanded="true"] .gb_6e, .gb_D[aria-expanded="true"] .gb_7e {fill: #ccc;}
+/*----*/
+/*--Cuerpo--*/
+.RvYhPd::before {background: #111; border-bottom: 1px solid #444;}
+.RvYhPd {background: #111;}
+/*--Botones-T-D--*/
+.BSw7K.iYelWb .irkilc:not(:disabled), .BSw7K.MFKVse .hL2wFc:not(:disabled) {background-color: #000050;}
+.cWQYBc {background: #000100; margin-right: .5em;}
+.cWQYBc .irkilc, .cWQYBc .hL2wFc {color: #3296ff;}
+.Rj2Mlf:not(:disabled) {border-color:#555;}
+.Rj2Mlf:hover:not(:disabled), .Rj2Mlf:active:not(:disabled) {border-color:#555;}
+.Rj2Mlf:hover:not(:disabled), .Rj2Mlf:active:not(:disabled), .Rj2Mlf:focus:not(:disabled), .Rj2Mlf.VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe:not(:disabled) {color: #64c8ff;}
+/*--Traductor--*/
+.ccvoYb {background: #222; box-shadow: 0 1px 4px 0 #444;}
+.aCQag {border-bottom: 1px solid #444;}
+.X4DQ0::after {background: linear-gradient(to right,#333,#444);}
+.yUUmWd.VfPpkd-AznF2e-OWXEXe-auswjd .VfPpkd-jY41G-V67aGc {color: #00ffff;}
+.PRdtG .VfPpkd-AznF2e-wEcVzc-OWXEXe-NowJzb {border-color: #00ffff;}
+/*--Idiomas--*/
+.yUUmWd .VfPpkd-jY41G-V67aGc {color: #bbb;}
+.JJYS0b:hover .VfPpkd-jY41G-V67aGc, .JJYS0b:active .VfPpkd-jY41G-V67aGc, .JJYS0b:focus .VfPpkd-jY41G-V67aGc {color: #fff;}
+/*--Boton-de-accion--*/
+.q7sDqe:not(:disabled) .VfPpkd-kBDsod, .q7sDqe:not(:disabled) {color: #fff;}
+.VfPpkd-Bz112c-LgbsSe:hover::before {opacity: .25;opacity: var(--mdc-ripple-hover-opacity,0.25);}
+.VfPpkd-Bz112c-LgbsSe:not(.VfPpkd-ksKsZd-mWPk3d):focus::before {opacity: .50;opacity: var(--mdc-ripple-focus-opacity,0.50);}
+.yHy1rc:disabled, .fzRBVc:disabled {color: #eee;}
+.VfPpkd-Bz112c-LgbsSe:not(.VfPpkd-ksKsZd-mWPk3d):active::after {opacity: .25;opacity: var(--mdc-ripple-press-opacity,0.25);}
+.VfPpkd-Bz112c-LgbsSe:hover::before {opacity: .50;opacity: var(--mdc-ripple-focus-opacity,0.50);}
+/*--Ingresar-Texto--*/
+.er8xn {color: #ddd;}
+.KjuTac {background: #555;}
+.ODAbH {color: #64c8ff;}
+.VhOj3e {color: #ccc;}
+.mvqA2c {color: #64c8ff;}
+/*--Pronunciacion-*/
+.UdTY9 {color: #ccc;}
+/*--Botones-de-accion-inferior--*/
+.SSgGrd:not(:disabled) {color: #eee;}
+.ZTPlmc {color: #eee;}
+.ita-kd-icon-button {color: #eee;}
+.ita-kd-img {background-color: #ddd;border-radius:50%;}
+/*--Traduccion--*/
+.P6w8m.BDJ8fb:not(.Jj6Lae) {background: #151515;}
+.KmsAmb .tL9Q4c, .J0lOec {color: #fff;}
+.tm8pq, .V5PAJd {color: #ddd;}
+.HVGOKe {color: #ddd;}
+.HVGOKe .G2nOM {color: #3296ff;}
+.k99SMd .tZKn2d {color: red;}
+.QGDZGb {color: red;}
+.yieiFb {Color: #eee;}
+.NlvNvf {color: #ddd;}
+.Pfag {color: #fff;}
+.BAZ5oe {background: #151515;}
+.fcuAz {color: #eee;}
+.brilXb {color: #ccc;}
+.P6w8m {background: #252525;}
+/*--Seleccion-de-idioma--*/
+.bvzp8c {background: #222;box-shadow: 0 1px 4px 0 #444;}
+.RstnCb {border-bottom: 1px solid #444; background: #333;}
+.KskmCc {background: #404040;color: #eee;font-weight: bold;}
+.ordo2.KKjvXb {background: #666;color: #64c8ff;}
+.ordo2:hover {background-color: #444;}
+.ordo2 {color: #ddd;}
+/*--Definiciones--*/
+.I87fLc.XzOhkf {background: #151515;border: 1px solid #444;}
+.nYkDR {color: #ddd;}
+.S6GkK {color: #fff;font-weight: bold;}
+.eIKIse {color: #64ffff}
+.RSggmb {border: 1px solid #ddd;color: #fff;}
+.MZgjEb {color: #eee;}
+.gHl6Mc {color: #fff;}
+.PsfnLc {border: 1px solid #050505;color: #ddd;}
+.Qk6AXd {color: #fff;}
+.I87fLc:not(.XzOhkf) .Dwvecf, .ZShpvc {border-top: 1px solid #444;}
+.dPxysd {color: #ccc;}
+.VK4HE:hover .dPxysd, .VK4HE:focus .dPxysd, .qTO0c:hover .dPxysd, .qTO0c:focus .dPxysd {color: #FFF;}
+.LV4pme {color: #eee;}
+.j7bWb {color: #bbb;}
+.xex4Kc {color: #bbb;}
+.ksE5nf.EiZ8Dd {background-color: #64ffff}
+/*--Notas--*/
+.a88hkc {color: #EEE;}
+/*--Pie de pagina--*/
+.ySES5 {background: #444;border: 1px solid #000;}
+.TYVfy {color: #ccc;}
+.TcXXXb {color: #eee;}
+
+}
