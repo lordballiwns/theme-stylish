@@ -1,0 +1,21 @@
+@-moz-document url-prefix("https://imgsrc.ru") {
+body {color: #eee; background: #101010;}
+.header {color: #ddd;}
+.header td {color: #ddd; background: #050505;}
+.header a {color: #fff;}
+a {color: #dd0000;}
+a:hover {color: red!important;}
+a:visited {color: #aa0000;}
+.header a:visited {color: #aa0000;}
+.tomato {color: red!important;}
+.topmenu {color: #fff;}
+.topmenu a {color: #ddd;}
+h1, h2, h5 {color: #eee;}
+.footer {background: #151515; color: #ccc;}
+.footer a {color: #bb0000;}
+th {background: #202020;}
+.tdd tr:hover {background: #404040;}
+.tdd TR:nth-child(2n) {background: #252525;}
+.tdd TR:nth-child(2n):hover {background: #404040}
+td.curt {background: #555}
+}
