@@ -18,4 +18,5 @@ th {background: #202020;}
 .tdd TR:nth-child(2n) {background: #252525;}
 .tdd TR:nth-child(2n):hover {background: #404040}
 td.curt {background: #555}
+.uilt {background-color: #252525;border-top: dotted 1px #555;}
 }
