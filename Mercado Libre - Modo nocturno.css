@@ -1,0 +1,192 @@
+@-moz-document domain("mercadolibre.com.mx") {
+body {background-color: #121212;}
+.nav-header {background-color: #000022;color: #ddd;}
+a {color: #00ffaa;}
+::selection {background: #004444!important;}
+/*--Menu de navegacion--*/
+#nav-header-menu a::after {color: #bfbfbf;}
+#nav-header-menu a {color: #ddd;}
+#nav-header-menu .nav-icon-user::before {background-color: #000022;}
+#nav-header-menu i::before {color: #ddd;}
+#nav-header-menu [for="nav-header-user-switch"]:hover i::before, [for="nav-header-user-switch"]:hover {color: #fff;}
+#nav-header-menu a:hover, #nav-header-menu a:hover i::before {color: #fff;}
+[for="nav-header-user-switch"] {color: #ddd;}
+#nav-header-menu .user-menu {background-color: #000;}
+.nav-header-user-layer::after {border-bottom-color: #000;}
+.nav-header-user-layer::before {border-bottom-color: #212121;}
+#nav-header-menu .user-menu .user-menu__user-with-loyalty .user-menu__user-badge-title {color: #eee;}
+#nav-header-menu .user-menu .user-menu__user-with-loyalty .user-menu__user-badge-email {color: #ddd;}
+#nav-header-menu .user-menu a.user-menu__user-badge-email:hover {background-color: #0a0a0a;}
+.user-menu__user-badge-email__chevron {color: #ddd;}
+#nav-header-menu .user-menu__one-column .user-menu__shortcuts-separator {border-top: 1px solid #111;}
+#nav-header-menu .user-menu .user-menu__shortcuts a {color: #ddd;}
+#nav-header-menu .user-menu .user-menu__shortcuts a:hover {background-color: #0a0a0a;}
+#nav-header-menu .nav-header-user-layer a {color: #fff;}
+#nav-header-menu a:first-child {border-top-color: #ddd;}
+#nav-header-menu .user-menu .user-menu__chevron {border-bottom: 9px solid #000;}
+#nav-header-menu > a.option-bookmarks .bookmarks-text::after {color: #ddd;}
+.ml-count {background-color: #d90000;border: 1px solid #000fa6;color: #fff;}
+#nav-header-menu a {color: #ddd;}
+/*--Busqueda--*/
+.nav-search::before {background-color: #000;}
+input[type="text"].nav-search-input::placeholder, input[type="search"].nav-search-input::placeholder {color: #ddd;}
+input[type="text"].nav-search-input, input[type="search"].nav-search-input {background-color: #000;}
+input[type="text"].nav-search-input, input[type="search"].nav-search-input {color: #ddd;}
+.nav-search .nav-category {background-color: #000;color: #ccc;border-left: 1px solid #191919;}
+button.nav-search-btn::before, button.nav-search-btn:focus::before {border-left: 1px solid #191919;}
+button.nav-search-btn, button.nav-search-btn:focus {background-color: #000;}
+button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
+.nav-menu-item:first-child > a:link, .nav-menu-item:first-child > a:visited {color: #ddd;}
+.nav-bounds.nav-bounds-with-cp .nav-menu-cp.nav-menu-cp-logged .nav-menu-cp-send {color: #FFF;}
+.nav-bounds.nav-bounds-with-cp .nav-menu-cp .nav-menu-link-cp {color: #ddd;}
+.nav-menu-item .nav-menu-categories-link::after {color: #ddd;}
+.nav-menu-item a, .nav-menu-item a:link, .nav-menu-item a:visited {color: #ddd;}
+.nav-categs-detail {background-color: #000;}
+.nav-categs-detail__header {border-bottom: 1px solid #222;}
+.nav-categs-detail__header h1 {color: #ddd;}
+.nav-header .nav-cart {color: #ddd;}
+.nav-bounds.nav-bounds-with-cart .nav-cart .nav-icon-cart::after {background-color: #000;}
+.nav-bounds.nav-bounds-with-cart .nav-cart ::before {color: #ddd;}
+.nav-bounds.nav-bounds-with-cart .nav-cart .nav-icon-cart-quantity {color: #ddd;}
+.nav-bounds.nav-bounds-with-cart .nav-cart:hover .nav-icon-cart-quantity, .nav-bounds.nav-bounds-with-cart .nav-cart:hover ::before {color: #fff;}
+.exhibitor__picture {filter: invert(100%)}
+/*--Resultados de busqueda--*/
+.ui-search-related-search__item {color: #ddd;}
+.ui-search-related-search__link, .ui-search-related-search__link:active, .ui-search-related-search__link:visited {color: #ddd;}
+.ui-search-related-search__link:hover {color: #fff;}
+/*--Lateral derecho--*/
+.ui-search-breadcrumb .andes-breadcrumb .andes-breadcrumb__label, .ui-search-breadcrumb .andes-breadcrumb .andes-breadcrumb__link {color: #ccc}
+.ui-search-breadcrumb__title {color: #ddd;}
+.ui-search-search-result__quantity-results {color: #ddd;}
+.ui-search-breadcrumb .andes-breadcrumb .andes-breadcrumb__link:hover {color: #ddd;}
+.ui-search-view-options__title {color: #ddd;}
+.andes-dropdown--compact .andes-dropdown__trigger {color: #ccc}
+.andes-dropdown--compact .andes-dropdown__trigger:hover {color: #ddd;}
+.andes-dropdown__popover {background-color: #000;}
+.andes-list {background-color: #000;color: #ccc;}
+.ui-search-sort-filter .andes-dropdown--compact .andes-list .andes-list__item {border-bottom: 1px solid #272727;}
+.andes-dropdown--compact .andes-list__item-primary {color: #ccc;}
+.ui-search-view-change .ui-search-view-change__link {color: #ddd;}
+.ui-search-filter-highlighted__container {background-color: #000;border: 1px solid #222;}
+.ui-search-filter-highlighted__title {color: #fff;}
+.ui-search-filter-highlighted__subtitle {color: #fff;}
+.ui-search-animated-switch {color: #ddd;}
+.ui-search-animated-switch__switch-bar::after {background-color: #000;}
+.ui-search-animated-switch__switch-bar--off {background-color: #272727;}
+.ui-search-applied-filters__link .andes-tag__tag-hover-surface {background-color: #050505;}
+.andes-tag__label {color: #bbb;}
+.ui-search-filter-dt-title {color: #ddd;}
+.ui-search-filter-name {color: #ccc}
+.andes-form-control__control .andes-form-control__field {background-color: #050505;}
+.andes-form-control__field {color: #fff;}
+.ui-search-price-filter-action-btn:disabled {background-color: #1f1f1f;}
+/*--Resultados--*/
+.ui-search-layout--stack .ui-search-layout__item {border-bottom: thin solid #111;}
+.andes-card {background-color: #000;}
+.ui-search-layout--stack .ui-search-result .ui-search-item__title {color: #ddd;}
+.ui-search-layout--stack .ui-search-result .ui-search-price__part {color: #ddd;}
+.ui-search-layout--stack .ui-search-result .ui-search-price__discount {color: #00ffaa;}
+.ui-search-color--LIGHT_GREEN {color: #00ffaa;}
+.ui-search-installments-prefix {color: #fff;}
+.ui-search-item__shipping--free {color: #00ffaa;}
+.ui-search-layout--stack .ui-search-result .ui-search-item__promise--next_day .ui-search-item__promise__text {background-color: #190811;color: #00ffaa;}
+/*--Resultados, imagen grande--*/
+.ui-search-layout--gallery .ui-search-result__image, .ui-search-layout--grid .ui-search-result__image {border-bottom: 1px solid #151515;}
+.ui-search-layout--gallery .ui-search-result .ui-search-price__part, .ui-search-layout--grid .ui-search-result .ui-search-price__part {color: #ddd;}
+.ui-search-layout--gallery .ui-search-result .ui-search-item__title, .ui-search-layout--grid .ui-search-result .ui-search-item__title {color: #ddd;}
+.ui-search-layout--gallery .ui-search-result .ui-search-item__promise--next_day .ui-search-item__promise__text, .ui-search-layout--grid .ui-search-result .ui-search-item__promise--next_day .ui-search-item__promise__text {background-color: #150811;color: #00ffaa}
+.ui-search-icon--full {fill: #00ffaa;}
+.slick-slide img {opacity: .8;}
+/*--Pie de resultado--*/
+.ui-search-listing-disclaimer__card {background-color: #000;}
+.ui-search-listing-disclaimer__text {color: #ccc;}
+.andes-pagination__button .andes-pagination__link:active, .andes-pagination__button .andes-pagination__link:link, .andes-pagination__button .andes-pagination__link:visited {color: #ccc;}
+.andes-pagination__button--current .andes-pagination__link:active, .andes-pagination__button--current .andes-pagination__link:link, .andes-pagination__button--current .andes-pagination__link:visited {color: #fff;}
+.andes-pagination__button .andes-pagination__link:hover {background-color: #888;color: #fff;}
+.andes-pagination__button--current .andes-pagination__link {background-color: #888;}
+.andes-pagination__arrow {border-color: #ddd;}
+/*--Busqueda relacionadas--*/
+.ui-search-bottom-ads__wrapper {background-color: #0a0a0a;}
+.ui-search-bottom-ads__wrapper .ui-recommendations--cheaper .ui-recommendations__header__title {color: #fff;}
+.ui-recommendations.ui-recommendations--cheaper .item {background-color: #000;}
+.ui-recommendations.ui-recommendations--cheaper a {color: #fff;}
+.ui-search-bottom-ads__wrapper .ui-recommendations--cheaper .item-description h2 {color: #ddd;}
+.ui-recommendations .ui-item__installments--free {color: #00ffaa!important;}
+.ui-recommendations .ui-item__shipping-icon--fullfilment {color: #00ffaa!important;fill: #00ffaa!important;}
+/*--Pie de pagina--*/
+.nav-footer, [for="nav-footer-access-switch"] {border-color: #191919; background-color: #000;}
+[for="nav-footer-access-switch"] {border: 1px solid #111;color: #ccc;}
+.nav-footer-access-content {border-color: #191919; background-color: #080808;}
+.nav-footer-access-title {color: #ddd;}
+#nav-footer-access-switch:not(:checked) + .nav-footer-access [for="nav-footer-access-switch"] {background-color: #080808;}
+/*--Mas informacion--*/
+.nav-footer {border-top: 1px solid #111;}
+.nav-footer-navigation a:link, .nav-footer-navigation a:visited {color: #ddd;}
+/*--Descarga--*/
+.nav-footer a.nav-footer-downloadapp {background-color: #0019ff;border: 1px solid #2632b4;color: #ddd;}
+}
+
+@-moz-document domain("mercadolibre.com.mx") {
+/*--Opcion de compra--*/
+.ui-pdp-related-search {color: #bbb;}
+.ui-pdp-related-search__list {color: #bbb;}
+.ui-pdp-related-search__item {color: #bbb;}
+.ui-pdp-related-search__link, .ui-pdp-related-search__link:active, .ui-pdp-related-search__link:visited {color: #bbb;}
+.ui-vip-grouped-header {background-color: #121212;}
+.ui-pdp-breadcrumb__link {color: #bbb;}
+.ui-pdp-breadcrumb__link::after {background-color: #333;}
+/*--Imagen mayor--*/
+.ui-pdp-container--pdp {background-color: #000;}
+.ui-recommendations__header__title {color: #ddd;}
+.ui-recommendations .ui-item {border: #0a0a0a;}
+.ui-item {opacity: .99; background-color: #000; color: #ddd;}
+.ui-item__price {color: #ddd;}
+.ui-item__title {color: #bbb;}
+.ui-pdp-specs {color: #bbb;}
+/*--Caracteristicas--*/
+.andes-table {filter: invert(100%)}
+.ui-pdp-specs__table {border: 1px solid #121212;}
+/*--Otras caracteristicas--*/
+.ui-pdp-list {color: #bbb;}
+.ui-pdp-color--BLACK {color: #bbb;}
+/*--Descripcion--*/
+.ui-pdp-description {color: #bbb;}
+.ui-pdp-description__content {color: #ddd;}
+/*--Pregutas Frecuentes--*/
+.ui-pdp-questions__subtitle, .ui-pdp-questions__subtitle--question, .ui-pdp-questions__title {color: #bbb;}
+.andes-form-control--textbox .andes-form-control__field {border: .05556em solid #999;}
+.ui-pdp-questions__no-questions--text {color: #bbb;}
+/*--Descripcion del pruducto--*/
+.ui-pdp-media__action {color: #3483fa;}
+.ui-pdp-subtitle {color: #bbb;}
+.ui-pdp-title {color: #fff;}
+.ui-pdp-price {color: #fff;}
+.ui-pdp-color--BLACK.ui-pdp-icon {fill: #fff;}
+.ui-pdp-generic-summary--black-price .ui-pdp-price__part {color: #fff;}
+.ui-pdp-color--GRAY {color: #bbb;}
+.ui-pdp-buybox__quantity {color: #fff;}
+.ui-pdp-buybox__quantity__title {color: #fff;}
+.ui-pdp-buybox__quantity__selected {color: #fff;}
+.ui-pdp-buybox__quantity__available {color: #bbb;}
+.andes-button--quiet, .andes-button--quiet:focus, .andes-button--quiet:link, .andes-button--quiet:visited {color: #3483fa;}
+.ui-pdp-color--GRAY.ui-pdp-icon {fill: #bbb;}
+/*--Informacion del vendedor--*/
+.ui-box-component__title {color: #fff;}
+.ui-seller-info {color: #fff;}
+.ui-seller-info__status-info__icon .ui-pdp-icon--pin.ui-pdp-color--GRAY {fill: #bbb;}
+.ui-seller-info__status-info__subtitle {color: #bbb;}
+.ui-pdp-color--GREEN.ui-pdp-icon {fill: #00ffaa}
+.ui-pdp-color--GREEN {color: #00ffaa}
+.ui-pdp-seller__status-title {color: #00ffaa}
+.ui-thermometer__level--1 {background: #000f0f;}
+.ui-thermometer__level {border-left: 6px solid #000;}
+.ui-thermometer__level--2 {background: #000a17;}
+.ui-thermometer__level--3 {background: #000325;}
+.ui-thermometer__level--4 {background: #0e0228;}
+.ui-thermometer__level--5 {background: #120711;}
+.ui-pdp-seller__sales-description {color: #fff;}
+.ui-pdp-quantity-selector .andes-button {color: #bbb;}
+.andes-list__item + .andes-list__item {border-top: .0625em solid #191919;}
+/*--Medios de pagos--*/
+.ui-vip-payment_methods__title {color: #bbb;}
+}
