@@ -90,6 +90,9 @@ button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
 .nav-bounds.nav-bounds-with-cart .nav-cart .nav-icon-cart-quantity {color: #ddd;}
 .nav-bounds.nav-bounds-with-cart .nav-cart:hover .nav-icon-cart-quantity, .nav-bounds.nav-bounds-with-cart .nav-cart:hover ::before {color: #fff;}
 .exhibitor__picture {filter: invert(100%)}
+.sb-suggestions {background: #000;border-top: solid 1px #191919;}
+.sb-suggestions__item {color: #ccc;}
+.sb-suggestions__wrapper--additional::before {border-top: solid 1px #191919;}
 /*--Resultados de busqueda--*/
 .ui-search-related-search__item {color: #ddd;}
 .ui-search-related-search__link, .ui-search-related-search__link:active, .ui-search-related-search__link:visited {color: #ddd;}
