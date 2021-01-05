@@ -1,4 +1,44 @@
 @-moz-document domain("mercadolibre.com.mx") {
+/*--Pagina Principal--*/
+main {background-color: #141414;}
+.payment-data .payment-data-container {background-color: #000;}
+.payment-data .payment-data-title {color: #fff;}
+.payment-data .payment-data-subtitle {color: #666;}
+.payment-data-section-leading, .payment-data-section-trailing {border: 0 solid #111;}
+.section-header h1 {color: #999;}
+.recommendations .highlight-seed.trigger-item__wrapper .ui-item::before, .recommendations .highlight-seeds .trigger-item__wrapper .ui-item::before {background-color: #252525;}
+.ui-item__shipping {background-color: #000;}
+.ui-item__shipping-free .ui-item__shipping-icon {fill: #00ffaa;}
+.ui-item__attributes, .ui-item__installments {color: #ccc;}
+.ui-item__discount-text {color: #00ffaa;}
+.discovery .advertising {background-color: #000;}
+.discovery .advertising__info__title {color: #b4b4b4;}
+.discovery .advertising__info__text {color: #b4b4b4;}
+.advertising__image img{opacity: .80;}
+.ui-card {background-color: #000;}
+.official-stores {background-image: linear-gradient(0,#191919,hsla(0,0%,100%,0) 100%);}
+.official-stores-slide-background img {opacity: .80;}
+.official-stores-slide-logo {background-color: #000;}
+.official-stores-slide-title {color: #ccc;}
+.collections .ui-dropdown__link {color: #999;}
+.collections .cb-title {color: #999;}
+.ui-dropdown__content {background-color: #000;}
+.ui-list {background-color: #000;}
+.collections .ui-list__item {border-color: #191919;}
+.collection .main-item .ui-card {color: #ccc; background-color: #000;}
+.collection .main-item .lazyload {background-color: #000; opacity: .8;}
+.collection .main-item .main-item-label {color: #b4b4b4;}
+.collection .main-item .main-item-title {color: #b4b4b4;}
+.squared-item, .squared-item .lazy-load {background-color: #000; opacity: .8;}
+.squared-item__title {color: #ccc;}
+.carousel-container .next-button, .carousel-container .prev-button {background-color: #000;}
+.categories .category {color: #ccc; background-color: #000;}
+.categories .category, .categories .filler {outline: 1px solid #151919;}
+.site-shopping-info {background-color: #000;}
+.site-shopping-info .info-slide h1 {color: #b4b4b4;}
+}
+
+@-moz-document domain("mercadolibre.com.mx") {
 body {background-color: #121212;}
 .nav-header {background-color: #000022;color: #ddd;}
 a {color: #00ffaa;}
