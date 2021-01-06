@@ -39,7 +39,7 @@ main {background-color: #141414;}
 }
 
 @-moz-document domain("mercadolibre.com.mx") {
-body {background-color: #121212;}
+body {background-color: #121212;background: #121212;}
 .nav-header {background-color: #000022;color: #ddd;}
 a {color: #00ffaa;}
 ::selection {background: #004444!important;}
@@ -67,6 +67,10 @@ a {color: #00ffaa;}
 #nav-header-menu > a.option-bookmarks .bookmarks-text::after {color: #ddd;}
 .ml-count {background-color: #d90000;border: 1px solid #000fa6;color: #fff;}
 #nav-header-menu a {color: #ddd;}
+.modeless-box-header {border-bottom: solid 1px #191919;color: #ccc;}
+.modeless-box::before {border-bottom: 10px solid #000;}
+.modeless-box {color: #ccc;background-color: #000;}
+.modeless-box .modeless-box-scroll-rail {background-color: #111;}
 /*--Busqueda--*/
 .nav-search::before {background-color: #000;}
 input[type="text"].nav-search-input::placeholder, input[type="search"].nav-search-input::placeholder {color: #ddd;}
@@ -232,4 +236,36 @@ button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
 .andes-list__item + .andes-list__item {border-top: .0625em solid #191919;}
 /*--Medios de pagos--*/
 .ui-vip-payment_methods__title {color: #bbb;}
+}
+
+@-moz-document domain("mercadolibre.com.mx") {
+/*--Favoritos--*/
+/*--Anuncios--*/
+.menu-myml-ads__container {background-color: #000;}
+.menu-myml-ads__container__center__text {color: #696765;}
+.menu-myml-ads__container__center__block--border {border: 1px solid #1f1f1f;}
+/*--Lateral-Izquierda--*/
+.myml-nav {background-color: #0a0a0a;}
+.app-wrapper--menu-expanded.app-wrapper--menu-expanded-static [class^="myml-nav__ham"] {background-color: #737373;}
+.myml-nav__section-title {color: #ccc;}
+.myml-nav__section-subtitle {color: #737373;}
+.myml-nav__section--active .myml-nav__section-icon path, .myml-nav__section--has-active-item .myml-nav__section-icon path {fill: #3483fa;}
+.myml-nav a {color: #999;}
+.myml-nav .myml-nav__menu-item--active {color: #ccc;}
+/*--Seccion-Favoritos--*/
+.item__result-container {background: #000;}
+.mfControl {border-bottom: 1px solid #212121;}
+.ui-button--primary.ui-button--disabled, .ui-button--primary:disabled, .ui-button--primary[disabled] {background-color: #191919;}
+.itemList {border-bottom: 1px solid #212121;}
+.itemList .itemTitle a {color: #999;}
+.itemList .itemTitle a:hover {color: #fff;}
+.itemList .price-info .price {color: #ccc;}
+.message-info {background-color: #0a0a0a; color: #999;}
+.modeless-box .modeless-box-noresults {background-color: #070707;}
+.modeless-box-footer {background-color: #000;}
+.modeless-box .bookmarks-title {color: #ccc;}
+.modeless-box .bookmarks-price {color: #ccc;}
+.modeless-box .modeless-box-item-wrapper:hover {background: #0a0a0a;}
+.modeless-box .modeless-box-remove {background: #0a0a0a; box-shadow: -10px 6px 22px 10px #0a0a0a;}
+
 }
