@@ -39,7 +39,10 @@ main {background-color: #141414;}
 }
 
 @-moz-document domain("mercadolibre.com.mx") {
-body {background-color: #121212;background: #121212;}
+html {background: #000;}
+body::-webkit-scrollbar-track {background-color: #444;}
+body::-webkit-scrollbar-thumb {background-color: #000;}
+body {background-color: #121212;background: #121212; color: #fff;}
 .nav-header {background-color: #000022;color: #ddd;}
 a {color: #00ffaa;}
 ::selection {background: #004444!important;}
@@ -208,9 +211,13 @@ button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
 .ui-pdp-subtitle {color: #bbb;}
 .ui-pdp-title {color: #fff;}
 .ui-pdp-price {color: #fff;}
+.ui-pdp-variations a, .ui-pdp-variations a:focus, .ui-pdp-variations a:hover, .ui-pdp-variations a:visited {color: #bbb;}
+.ui-pdp-other-sellers-item__tag {background-color: #0a0a0a;color: #bbb;}
+.ui-pdp-thumbnail--BLOCKED {color: #fff;}
 .ui-pdp-color--BLACK.ui-pdp-icon {fill: #fff;}
 .ui-pdp-generic-summary--black-price .ui-pdp-price__part {color: #fff;}
 .ui-pdp-color--GRAY {color: #bbb;}
+.ui-vpp-highlighted-specs__filled-icon img {filter: invert(100%);}
 .ui-pdp-buybox__quantity {color: #fff;}
 .ui-pdp-buybox__quantity__title {color: #fff;}
 .ui-pdp-buybox__quantity__selected {color: #fff;}
@@ -267,5 +274,15 @@ button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
 .modeless-box .bookmarks-price {color: #ccc;}
 .modeless-box .modeless-box-item-wrapper:hover {background: #0a0a0a;}
 .modeless-box .modeless-box-remove {background: #0a0a0a; box-shadow: -10px 6px 22px 10px #0a0a0a;}
+}
 
+@-moz-document domain("mercadolibre.com.mx") {
+/*--Multi-opcion-de-compra--*/
+.ui-pdp-s-header {background-color: #000;}
+.ui-pdp-s-table {background: #000;}
+.ui-pdp-table--col-5 > .ui-pdp-table__cell {color: #ddd;}
+/*--Recomendaciones--*/
+.ui-recommendations-comparator__title {color: #bbb;}
+.andes-tab--selected {color: #bbb;}
+.andes-tab__link, .andes-tab__link:visited {color: #bbb;}
 }
