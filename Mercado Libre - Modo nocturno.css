@@ -1,4 +1,10 @@
 @-moz-document domain("mercadolibre.com.mx") {
+/*--
+Traductor-de-Google-v4.0
+Diseño: Lord Balliwns
+Edicion: Lord Balliwns
+Con el apoyo de Proyecto Tigger Swan y Dinastia Irbiloc
+--*/
 /*--Pagina Principal--*/
 main {background-color: #141414;}
 .payment-data .payment-data-container {background-color: #000;}
@@ -285,4 +291,40 @@ button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
 .ui-recommendations-comparator__title {color: #bbb;}
 .andes-tab--selected {color: #bbb;}
 .andes-tab__link, .andes-tab__link:visited {color: #bbb;}
+}
+
+@-moz-document domain("mercadolibre.com.mx") {
+/*--Carrito-de-compras--*/
+.cart__list {background-color: #111;}
+.cart__list-items {background-color: #000;}
+.ui-tabs {border-bottom: 1px solid #191919;}
+.ui-tabs__item--selected {color: #ccc; border-bottom: 2px solid #ccc;}
+.ui-progress-bar-row {background-color: #000;}
+.ui-panel {background-color: #000;border-bottom: 1px solid #191919;}
+.item__title a {color: #ccc;}
+.ui-quantity-selector__container {border: 1px solid #191919;}
+.ui-quantity-selector__button, .ui-quantity-selector__input {color: #fff;}
+.ui-quantity-selector__button {color: #3483fa;}
+.item__price {color: #ccc;}
+.item__subtitle {color: #bbb;}
+.item__discount-rate {background-color: #000;}
+/*--Sumario--*/
+.summary {background: #000;border: 0 solid #111;}
+.summary__row .summary__label, .summary__row .summary__price {color: #ccc;}
+.summary__row--total .summary__price-epigraph {color: #bbb;}
+.summary__actions {border-top: 1px solid #111;}
+/*----*/
+.modal-iframe-cp .andes-modal-dialog {background: #000;}
+.layout--embed__header {background: #000;}
+.layout__header-subtitle {color: #bbb;}
+.header-subtitle {color: #ccc;}
+.andes-list__item-primary {color: #ccc;}
+.andes-list__item-secondary {color: #bbb;}
+.address-label--with-receiver {border-right: 1px solid #191919;}
+.addresses-list__actions {border-top: .0625em solid #191919;}
+.andes-form-control__label {color: #bbb;}
+.another-location__link {border-top: .0625em solid #191919;}
+.layout--embed .button-wrapper {background: #000;}
+.modal-iframe-cp .andes-spinner__mask {background: #000;}
+
 }
