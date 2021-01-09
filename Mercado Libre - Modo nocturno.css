@@ -1,6 +1,6 @@
 @-moz-document domain("mercadolibre.com.mx") {
 /*--
-Traductor-de-Google-v4.0
+Traductor-de-Google-v5.1
 Diseño: Lord Balliwns
 Edicion: Lord Balliwns
 Con el apoyo de Proyecto Tigger Swan y Dinastia Irbiloc
@@ -45,9 +45,17 @@ main {background-color: #141414;}
 }
 
 @-moz-document domain("mercadolibre.com.mx") {
+/*--Barra-de-desplazamiento--*/
 html {background: #000;}
-body::-webkit-scrollbar-track {background-color: #444;}
-body::-webkit-scrollbar-thumb {background-color: #000;}
+::-webkit-scrollbar {border: 1px dashed #000;}
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 2px #fff; border-radius: 5px;}
+::-webkit-scrollbar-thumb {border-radius: 6px;-webkit-box-shadow: inset 0 0 6px #fff;}
+::-webkit-scrollbar-corner{border-radius:5px;-webkit-box-shadow: inset 0 0 6px #002255;}
+/* The vertical thumb*/
+::-webkit-scrollbar-thumb:vertical {background-color: black;}
+/* The vertical thumb*/
+::-webkit-scrollbar-thumb:horizontal {background-color: #000;}
+/*--cuerpo--*/
 body {background-color: #121212;background: #121212; color: #fff;}
 .nav-header {background-color: #000022;color: #ddd;}
 a {color: #00ffaa;}
@@ -191,6 +199,14 @@ button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
 .ui-vip-grouped-header {background-color: #121212;}
 .ui-pdp-breadcrumb__link {color: #bbb;}
 .ui-pdp-breadcrumb__link::after {background-color: #333;}
+.ui-pdp-reviews__header__title {color: #bbb;}
+.ui-pdp-reviews__rating__summary__average {color: #bbb;}
+.ui-pdp-reviews__rating__summary__label {color: #bbb;}
+.ui-vpp-rating__level__progress-bar-container .ui-vpp-rating__level__progress-bar__background {background-color: #444;}
+.ui-pdp-reviews__comments .andes-tab__link {color: #bbb;}
+.ui-pdp-reviews__comments__review-comment__title {color: #bbb;}
+.ui-pdp-reviews__comments__review-comment__comment {color: #bbb;}
+.ui-pdp-reviews__comments__review-comment__likes {color: #bbb;}
 /*--Imagen mayor--*/
 .ui-pdp-container--pdp {background-color: #000;}
 .ui-recommendations__header__title {color: #ddd;}
@@ -326,5 +342,13 @@ button.nav-search-btn, button.nav-search-btn:focus {color: #ccc}
 .another-location__link {border-top: .0625em solid #191919;}
 .layout--embed .button-wrapper {background: #000;}
 .modal-iframe-cp .andes-spinner__mask {background: #000;}
-
+.carousel-common__section .recommendations-component-wrapper .recommendations-title {color: #bbb;}
+.recommendations-component-wrapper .recommendations-list-items .item-wrapper {background: #000;}
+.carousel-common__section .recommendations-component-wrapper .ch-carousel img {opacity: .8;}
+.recommendations-component-wrapper .recommendations-list-items .item-data {border-top: 1px solid #111;}
+.recommendations-component-wrapper .recommendations-list-items .shipping-icon {background-color: #000;}
+.recommendations-component-wrapper .recommendations-list-items .item-data .item-price {color: #ccc;}
+.recommendations-component-wrapper .recommendations-list-items .item-data .item-discount {color:#00ffaa;}
+.recommendations-component-wrapper .recommendations-list-items .item-data .item-installments {color: #ccc;}
+.recommendations-component-wrapper .recommendations-list-items .item-data .item-title {color: #999;}
 }
