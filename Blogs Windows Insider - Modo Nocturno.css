@@ -1,35 +1,10 @@
 @-moz-document domain("blogs.windows.com") {
-body, html {background: #111111;}
-body, button, form, input, select, textarea {color: #dddddd;}
-.context-uhf {color: #cccccc; background-color: #111111;}
-.c-uhfh > div:first-child {background: #111111;}
-.context-uhf .theme-light {color: #cccccc;}
-.c-uhfh > [class*="theme-"] .c-action-trigger, .c-uhfh > [class*="theme-"] .c-logo, .c-uhfh > [class*="theme-"] .c-uhf-nav-link, .c-uhfh > [class*="theme-"] .c-uhf-menu a, .c-uhfh > [class*="theme-"] .c-uhf-menu button, .c-uhfh > [class*="theme-"] .c-me:not(.msame_open) .msame_Header_name {color: #dddddd;}
-.c-uhfh .c-show-pipe::before {border-left: 2px solid #ffffff;}
-.c-uhfh > div:first-child .c-uhf-nav-link {color: #cccccc;}
-.c-uhfh > div:first-child .c-uhf-menu a, .c-uhfh > div:first-child .c-uhf-menu button {color: #cccccc;}
-.c-uhfh > div:first-child .c-uhf-menu > button:hover, .c-uhfh > div:first-child .c-uhf-menu > button:focus {background: #333333;}
-.c-uhfh > div:first-child .c-uhf-menu > ul {background: #333333;}
-.theme-light .c-search, .theme-dark .theme-light .c-search {color: #cccccc;}
-.theme-light .c-search input[type="search"]::placeholder, .theme-dark .theme-light .c-search input[type="search"]::placeholder {color: #eeeeee;}
-.c-uhfh.c-sgl-stck .c-search button:focus {color: #cccccc;}
-.c-uhfh > div:first-child .c-search button:hover {color: #eeeeee;}
-.c-uhfh.c-sgl-stck .f-search-opened .cancel-search {color: #dddddd;}
-.sticky-header {background: #222222; color: #eeeeee;}
-.sticky-header__logo-link, .sticky-header__logo-link:visited {color: #eeeeee;}
-.social-share-networks__anchor {color: #dddddd;}
-.page-template-template-homepage .panel-collection > :first-child, .page-template-template-homepage .panel-collection > :nth-child(2) {background-color: #111111;}
-.u-bc-grey {background-color: #333333;}
-.site-panel--hero-slider .c-slider__button {box-shadow: 0 4px 8px rgba(255,255,255,.1);}
-.c-card {background-color: #222222;}
-.c-card--article .c-card__date {color: #dddddd;}
-.c-card__cta {color: #ffffff;}
-.c-card__cta::after {background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24.3 18.1'%3E%3Cpath d='M15.1 0l-1 .9 7.5 7.5H0v1.4h21.6l-7.5 7.4 1 .9 9.2-9z'/%3E%3C/svg%3E") no-repeat 50%/16px 12px white; border-radius: 5px;}
-.c-uhff-nav .c-heading-4, .c-uhff-nav a.c-uhff-link {color: #cccccc;}
-.c-uhff-base {background: #222222;}
-.c-uhff-base ul.c-list {color: #dddddd;}
-.c-uhff-base ul.c-list a:hover {color: #ffffff;}
-.list-bullet li::before, .t-content ul li::before {background: #dddddd;}
-.post-tax__link a:active, a:focus {outline: 1px dotted; color: inherit; background: #303030;}
-a.post-tax__link:hover {background: #202020;}
+/*-
+Blogs de Windows en Modo Nocturno v2
+Diseño: Lord Balliwns
+Edicion: Lord Balliwns
+Con el apoyo de Proyecto Tigger Swan y Dinastia Irbiloc
+-*/
+html {filter: invert(1)}
+img, .c-cta-more:focus, .c-cta-more:hover, .c-cta-more:visited:focus, .c-cta-more:visited:hover, .panel__article-header--full-image .article-header__author-image, .anchor, .t-content a, .article-fifty__media .item-single__image, .c-video__wrapper, .c-card__icon-bg {filter: invert(1)}
 }
